@@ -17,8 +17,8 @@ app.get('/health', (req, res) => {
 });
 app.get('/api/info', (req, res) => {
   res.status(200).json({
-    name: 'Secure Lab App',
-    version: '1.1.0',
+    name: 'Specialization Security Lab',
+    version: '1.2.0',
     environment: process.env.APP_ENV || 'development'
   });
 });
